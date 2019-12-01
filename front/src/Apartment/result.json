@@ -3,12 +3,12 @@
     "_id": "5de3234d964c3a2e68fc1f3d",
     "city": "São Paulo",
     "state": "sp",
-    "address": "Alameda Itu, 254",
+    "address": "Avenida Paulista, 1745",
     "tower_name": "Torre única",
     "building_type": "Apartamento",
     "rooms": "3",
     "garages": "1",
-    "useful_area": "177",
+    "useful_area": "80",
     "latitude": "-23.56619840",
     "longitude": "-46.65689950",
     "point_estimate": "2111490",
@@ -58,7 +58,8 @@
       "href": "http://places.cit.api.here.com/places/v1/places/0766gycf-2fab76d141fe48689715e1469cec4229;context=Zmxvdy1pZD1lMmU2MjNlMS0xZjVhLTUwM2ItODBmYy00YzRiNDk2MDFlN2NfMTU3NTE4ODY3Mjk0MV8zNDBfOTU5NCZyYW5rPTU?app_id=bFDOZ1cahNKVNTGQV00f&app_code=8elG4aRfiDEZ2rjFyxeccA",
       "id": "0766gycf-2fab76d141fe48689715e1469cec4229"
     },
-    "price": 4279645.248233859
+    "bairro": "Bela Vista",
+    "price": 4200600.248233859
   },
   {
     "_id": "5de3234d964c3a2e68fc1f3d",
@@ -97,6 +98,7 @@
       "href": "http://places.cit.api.here.com/places/v1/places/076jx7ps-0f9d3f1b9f430e77ecbd50f67a7534c8;context=Zmxvdy1pZD00MzU1ZjNjMy03MGExLTUyMWItOWE3ZS01ZjhjY2U5MzA5MWJfMTU3NTE4ODk4NTA3NV8xMTMxXzc5JnJhbms9NQ?app_id=bFDOZ1cahNKVNTGQV00f&app_code=8elG4aRfiDEZ2rjFyxeccA",
       "id": "076jx7ps-0f9d3f1b9f430e77ecbd50f67a7534c8"
     },
+    "bairro": "Jardim Paulista",
     "publicTransport": {
       "position": [
         -23.56347,
@@ -119,18 +121,18 @@
       "href": "http://places.cit.api.here.com/places/v1/places/0766gycf-2fab76d141fe48689715e1469cec4229;context=Zmxvdy1pZD1lMmU2MjNlMS0xZjVhLTUwM2ItODBmYy00YzRiNDk2MDFlN2NfMTU3NTE4ODY3Mjk0MV8zNDBfOTU5NCZyYW5rPTU?app_id=bFDOZ1cahNKVNTGQV00f&app_code=8elG4aRfiDEZ2rjFyxeccA",
       "id": "0766gycf-2fab76d141fe48689715e1469cec4229"
     },
-    "price": 4279645.248233859
+    "price": 900000.248233859
   },
   {
     "_id": "5de3234d964c3a2e68fc1f3d",
     "city": "São Paulo",
     "state": "sp",
-    "address": "Alameda Itu, 254",
+    "address": "Rua Visconde de Guaratiba, 90",
     "tower_name": "Torre única",
     "building_type": "Apartamento",
     "rooms": "3",
     "garages": "1",
-    "useful_area": "177",
+    "useful_area": "50",
     "latitude": "-23.56619840",
     "longitude": "-46.65689950",
     "point_estimate": "2111490",
@@ -158,6 +160,7 @@
       "href": "http://places.cit.api.here.com/places/v1/places/076jx7ps-0f9d3f1b9f430e77ecbd50f67a7534c8;context=Zmxvdy1pZD00MzU1ZjNjMy03MGExLTUyMWItOWE3ZS01ZjhjY2U5MzA5MWJfMTU3NTE4ODk4NTA3NV8xMTMxXzc5JnJhbms9NQ?app_id=bFDOZ1cahNKVNTGQV00f&app_code=8elG4aRfiDEZ2rjFyxeccA",
       "id": "076jx7ps-0f9d3f1b9f430e77ecbd50f67a7534c8"
     },
+    "bairro": "Vila Firmiano",
     "publicTransport": {
       "position": [
         -23.56347,
@@ -180,6 +183,6 @@
       "href": "http://places.cit.api.here.com/places/v1/places/0766gycf-2fab76d141fe48689715e1469cec4229;context=Zmxvdy1pZD1lMmU2MjNlMS0xZjVhLTUwM2ItODBmYy00YzRiNDk2MDFlN2NfMTU3NTE4ODY3Mjk0MV8zNDBfOTU5NCZyYW5rPTU?app_id=bFDOZ1cahNKVNTGQV00f&app_code=8elG4aRfiDEZ2rjFyxeccA",
       "id": "0766gycf-2fab76d141fe48689715e1469cec4229"
     },
-    "price": 4279645.248233859
+    "price": 2000050.248233859
   }
 ]
