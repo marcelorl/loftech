@@ -1,5 +1,7 @@
 import React, {Fragment} from 'react'
 import ApartmentHeader from './ApartmentHeader'
+import Content from './Content'
+import './Apartment.css'
 
 export default () => {
     return (
@@ -811,8 +813,8 @@ export default () => {
                                 <hr className="MuiDivider-root jss366"/>
                             </section>
                         </div>
-                        <section className="jss365">
-                            <div className="jss553"></div>
+                        <section className="jss365 here-map">
+                            <Content />
                             <hr className="MuiDivider-root jss366"/>
                         </section>
                         <section data-testid="transformation-after-before" className="jss365"><h6
