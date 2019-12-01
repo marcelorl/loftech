@@ -31,6 +31,8 @@ app.get("/hello", (req, res) => {
     res.send("HELLO")
 })
 
+
+
 app.get("/consultarGeral", (req, res) => {
 
     const body = req.body
@@ -38,18 +40,69 @@ app.get("/consultarGeral", (req, res) => {
     MongoClient.connect(url, function (err, db) {
         if (err) throw err;
         var dbo = db.db("loftech");
+        //dbo.collection("apartament").find({ price: { $lt: body.price } }, { bairro: body.bairro }
 
 
-        dbo.collection("apartament").find({ price: { $lt: body.price } }, { bairro: body.bairro }).limit(50)
+        dbo.collection("apartament").find({ price: { $lt: body.price } }, { bairro: body.bairro }
+            ,
+            {
+                location: {
+                    $near: {
+                        $geometry: {
+                            type: "Point",
+                            coordinates: [-73.9667, 40.78]
+                        },
+                        $minDistance: 0,
+                        $maxDistance: 1
+                    }
+                }
+            }
+
+        ).limit(50)
             .toArray(async (err, result) => {
                 if (err) throw err
-                console.log(result)
+                //console.log(result)
                 res.status(200).send(result)
 
             })
     })
 
 });
+
+app.get('/rota', (req, res) => {
+
+    const body = req.body
+
+    MongoClient.connect(url, function (err, db) {
+        if (err) throw err;
+        var dbo = db.db("loftech");
+        //dbo.collection("apartament").find({ price: { $lt: body.price } }, { bairro: body.bairro }
+
+        dbo.collection("apartament").find(
+            {
+                location:
+                {
+                    $near:
+                    {
+                        $geometry: {
+                            type: "Point",
+                            coordinates: [-84.27326978424058, 30.443902444762696]
+                        },
+                        $maxDistance: 1
+                    }
+                }
+            }
+        )
+            .limit(50)
+            .toArray(async (err, result) => {
+                if (err) throw err
+                //console.log(result)
+                res.status(200).send(result)
+
+            })
+    })
+
+})
 
 
 app.get("/consultarbairro", (req, res) => {
@@ -97,6 +150,6 @@ function adicionarValorRandom(req, res) {
 };
 
 
-app.listen(3000, function () {
-    console.log('Example app listening on port 3000!');
+app.listen(4000, function () {
+    console.log('Example app listening on port 4000!');
 });

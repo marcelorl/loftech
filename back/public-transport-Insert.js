@@ -11,27 +11,16 @@ MongoClient.connect(url, function (err, db) {
         .toArray(async (err, result) => {
 
             let mapResult = result.map(item => {
-                var url_api = `http://places.cit.api.here.com/places/v1/discover/around?in=${item.latitude}%2C${item.longitude}%3Br%3D400&cat=public-transport&Accept-Language=en-US%2Cen%3Bq%3D0.9%2Cpt-BR%3Bq%3D0.8%2Cpt%3Bq%3D0.7&app_id=bFDOZ1cahNKVNTGQV00f&app_code=8elG4aRfiDEZ2rjFyxeccA`
-                //                console.log(url_api)
-                return request(url_api, function (error, response, body) {
-                    if (!error && response.statusCode == 200) {
-                        var jsonObject = JSON.parse(body);
-                        //console.log(jsonObject)
 
-                        if (jsonObject.results.items) {
-                            jsonObject.results.items.forEach(async publicTransport => {
-                                //console.log(objectItem)
-                                //necessario dar o update
+                let location = {
+                    type: 'Point',
+                    coordinates: [
+                        item.latitude, item.longitude
+                    ]
+                }
 
-                                await dbo.collection("apartament").updateOne({ "_id": item._id }, { $set: { publicTransport } })
-                            })
+                await dbo.collection("apartament").updateOne({ "_id": item._id }, { $set: { publicTransport } })
 
-                            //dbo.collection("apartament").update("")
-
-                        }
-
-                    }
-                })
 
             })
 

@@ -66,3 +66,16 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+1. Entrar na pasta back e front para rodar o comando abaixo
+   npm i
+
+2. Importar o database(JSON) do mongodb que está no caminho back/database/
+
+3. Rodar o comando abaixo no caminho /back/app/
+   nodemon consultMap.js
+
+4. Acessar a URL em seu browser
+   localhost:3000
+
+5. Fazer a experiencia da busca do seu apartamento perfeito :)
