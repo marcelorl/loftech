@@ -39,7 +39,8 @@ app.get("/consultarGeral", (req, res) => {
         if (err) throw err;
         var dbo = db.db("loftech");
 
-        dbo.collection("apartament").find({ price: { $lt: body.price } }).limit(50)
+
+        dbo.collection("apartament").find({ price: { $lt: body.price } }, { bairro: body.bairro }).limit(50)
             .toArray(async (err, result) => {
                 if (err) throw err
                 console.log(result)
@@ -53,8 +54,8 @@ app.get("/consultarGeral", (req, res) => {
 
 app.get("/consultarbairro", (req, res) => {
 
-    https://reverse.geocoder.api.here.com/6.2/reversegeocode.json?prox=-23.5851969%2C-46.6735148&mode=retrieveAddresses&maxresults=1&gen=9&app_id=devportal-demo-20180625&app_code=9v2BkviRwi9Ot26kp2IysQ
-    
+    'https://reverse.geocoder.api.here.com/6.2/reversegeocode.json?prox=-23.5851969%2C-46.6735148&mode=retrieveAddresses&maxresults=1&gen=9&app_id=devportal-demo-20180625&app_code=9v2BkviRwi9Ot26kp2IysQ'
+
 })
 
 function adicionarValorRandom(req, res) {
