@@ -50,6 +50,13 @@ app.get("/consultarGeral", (req, res) => {
 
 });
 
+
+app.get("/consultarbairro", (req, res) => {
+
+    https://reverse.geocoder.api.here.com/6.2/reversegeocode.json?prox=-23.5851969%2C-46.6735148&mode=retrieveAddresses&maxresults=1&gen=9&app_id=devportal-demo-20180625&app_code=9v2BkviRwi9Ot26kp2IysQ
+    
+})
+
 function adicionarValorRandom(req, res) {
     const body = req.body
 
