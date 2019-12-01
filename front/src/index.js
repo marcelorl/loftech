@@ -12,7 +12,7 @@ import Apartment from './Apartment/Apartment'
 ReactDOM.render(
     <Router>
         <Switch>
-            <Route path="/casa">
+            <Route path="/imovel">
                 <Apartment />
             </Route>
             <Route path="/">

@@ -1,0 +1,63 @@
+[
+  {
+    "_id": "5de3234d964c3a2e68fc1f3d",
+    "city": "São Paulo",
+    "state": "sp",
+    "address": "Alameda Itu, 254",
+    "tower_name": "Torre única",
+    "building_type": "Apartamento",
+    "rooms": "3",
+    "garages": "1",
+    "useful_area": "177",
+    "latitude": "-23.56619840",
+    "longitude": "-46.65689950",
+    "point_estimate": "2111490",
+    "minimum_estimate": "1794760",
+    "maximum_estimate": "2428210",
+    "hospital": {
+      "position": [
+        -23.55763,
+        -46.65637
+      ],
+      "distance": 954,
+      "title": "Hospital e Maternidade Sacrecouer",
+      "averageRating": 0,
+      "category": {
+        "id": "hospital",
+        "title": "Hospital",
+        "href": "http://places.cit.api.here.com/places/v1/categories/places/hospital?app_id=bFDOZ1cahNKVNTGQV00f&app_code=8elG4aRfiDEZ2rjFyxeccA",
+        "type": "urn:nlp-types:category",
+        "system": "places"
+      },
+      "icon": "http://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/26.icon",
+      "vicinity": "Rua Antônio Carlos, 122<br/>Bela Vista<br/>São Paulo-SP<br/>01309-010",
+      "having": [ ],
+      "type": "urn:nlp-types:place",
+      "href": "http://places.cit.api.here.com/places/v1/places/076jx7ps-0f9d3f1b9f430e77ecbd50f67a7534c8;context=Zmxvdy1pZD00MzU1ZjNjMy03MGExLTUyMWItOWE3ZS01ZjhjY2U5MzA5MWJfMTU3NTE4ODk4NTA3NV8xMTMxXzc5JnJhbms9NQ?app_id=bFDOZ1cahNKVNTGQV00f&app_code=8elG4aRfiDEZ2rjFyxeccA",
+      "id": "076jx7ps-0f9d3f1b9f430e77ecbd50f67a7534c8"
+    },
+    "publicTransport": {
+      "position": [
+        -23.56347,
+        -46.6544
+      ],
+      "distance": 396,
+      "title": "Metrô-Trianon-Masp-Avenida Paulista-Lado Ímpar",
+      "averageRating": 0,
+      "category": {
+        "id": "public-transport",
+        "title": "Public Transit",
+        "href": "http://places.cit.api.here.com/places/v1/categories/places/public-transport?app_id=bFDOZ1cahNKVNTGQV00f&app_code=8elG4aRfiDEZ2rjFyxeccA",
+        "type": "urn:nlp-types:category",
+        "system": "places"
+      },
+      "icon": "http://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/11.icon",
+      "vicinity": "Avenida Paulista<br/>Jardim Paulista<br/>São Paulo-SP<br/>01311-200",
+      "having": [ ],
+      "type": "urn:nlp-types:place",
+      "href": "http://places.cit.api.here.com/places/v1/places/0766gycf-2fab76d141fe48689715e1469cec4229;context=Zmxvdy1pZD1lMmU2MjNlMS0xZjVhLTUwM2ItODBmYy00YzRiNDk2MDFlN2NfMTU3NTE4ODY3Mjk0MV8zNDBfOTU5NCZyYW5rPTU?app_id=bFDOZ1cahNKVNTGQV00f&app_code=8elG4aRfiDEZ2rjFyxeccA",
+      "id": "0766gycf-2fab76d141fe48689715e1469cec4229"
+    },
+    "price": 4279645.248233859
+  }
+]
