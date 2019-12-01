@@ -13,7 +13,7 @@ function Search() {
 
     const onSearch = (data) => {
         setShowWizard(false)
-        axios.get("http://localhost:4000/consultarGeral").then(result => {
+        axios.get(`http://localhost:4000/consultarGeral?bairro=${data.bairro}&price=${data.price}`).then(result => {
             setRes(result.data)
             console.log(result.data)
         })
