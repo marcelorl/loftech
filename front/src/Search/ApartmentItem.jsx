@@ -1,18 +1,20 @@
 import React from 'react'
 
+import thumb from './banner_thumbnail.jpg'
+
 export default () => (
     <li className="MuiGridListTile-root" style={{"width": "50%", "height": "auto", "padding": "12px"}}>
         <div className="MuiGridListTile-tile jss484">
             <div className="WithScrollTracker">
                 <div
-                    className="MuiPaper-root MuiPaper-elevation0 MuiCard-root jss491 jss492 MuiPaper-rounded"
+                    className="MuiPaper-root MuiPaper-elevation0 MuiCard-root jss491 MuiPaper-rounded"
                     data-testid="home-card" id="udxbc2"><a
                     className="MuiButtonBase-root MuiCardActionArea-root" tabIndex="0"
                     aria-disabled="false" href="/home/udxbc2" target="_blank">
                     <div className="MuiCardMedia-root jss490"
-                         style={{"background-image": "url(&quot;https://content.loft.com.br/homes/udxbc2/banner_thumbnail.jpg&quot)"}}
-                         title="Alameda Joaquim Eugênio de Lima 747"><span className="jss493"><p
-                        className="MuiTypography-root jss495 MuiTypography-body1">Vendido</p></span></div>
+                         title="Alameda Joaquim Eugênio de Lima 747">
+                        <img src={thumb} alt=""/>
+                    </div>
                     <div className="MuiCardContent-root">
                         <div className="jss499"><h6
                             className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-colorPrimary">R$2,294,000</h6>
