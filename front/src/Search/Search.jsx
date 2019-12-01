@@ -1,15 +1,24 @@
-import React, {Fragment} from 'react'
+import React, {Fragment, useState} from 'react'
 
 import SearchHeader from './SerchHeader'
 import Content from './Content'
 import './Search.css'
 import fakeMap from './fake-map.png'
+import Wizard from "../Wizard/Wizard";
 
 function Search() {
+    const [showWizard, setShowWizard] = useState(true)
+
+    const onSearch = (data) => {
+        setShowWizard(false)
+        console.log(data)
+    };
+
   return (
       <Fragment>
           <SearchHeader />
           <div id="__next">
+              {showWizard && <Wizard onSearch={onSearch} />}
               <header className="MuiBox-root-1 jss2">
                   <div className="MuiBox-root-1 jss5 jss3 jss4"><a className="" target="_self" title="Loft" href="/">
                       <svg className="MuiSvgIcon-root-6" focusable="false" viewBox="0 0 140 119" color="#FF6023"

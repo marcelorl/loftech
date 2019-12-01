@@ -1,16 +1,98 @@
-import React from 'react'
+import React, {useState, useEffect, Fragment} from 'react'
 import { HEREMap, Marker, RouteLine } from 'here-maps-react'
+// import axios from 'axios'
+import hospital from './hospital-syringe.svg'
+import bus from './school-bus.svg'
+
+import result from './result'
 
 export default () => {
+    const [res, setRes] = useState(null)
+
+    useEffect(() => {
+        if(!Array.isArray(result[0].hospital)) {
+            result[0].hospital = [result[0].hospital]
+        }
+
+        if(!Array.isArray(result[0].publicTransport)) {
+            result[0].publicTransport = [result[0].publicTransport]
+        }
+
+        setRes(result[0])
+    }, [])
+
+    if(!res) return null
+
     return (
-        <HEREMap
-            appId="bFDOZ1cahNKVNTGQV00f"
-            appCode="8elG4aRfiDEZ2rjFyxeccA"
-            center={{ lat: 10.998666, lng: -63.79841 }}
-            zoom={12}
-        >
-            <Marker lat={10.998666} lng={-63.79841} />
-            {/*<RouteLine shape={shape} strokeColor="#48dad0" lineWidth={4} />*/}
-        </HEREMap>
+        <Fragment>
+            <div className="MuiGrid-root jss164 MuiGrid-container MuiGrid-spacing-xs-3">
+                <div className="section-feat">
+                    <img src="https://www.pontorh.com.br/wp-content/uploads/2017/06/trabalho-e1496837503264.jpg" alt=""/>
+                    <div>
+                        <h3>Este pode ser o apartamento dos seus sonhos que você tanto procurou!</h3>
+                        <div>
+                            Este não é um apartamento comum. O seu trabalho, localizado na rua XXXXX, está apenas a 900m
+                            do seu apartamento. Isso é qualidade de vida garantida e muito mais tempo para você passar
+                            com quem realmente importa, como sua família e seus amigos que você tanto gosta.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="MuiGrid-root jss164 MuiGrid-container MuiGrid-spacing-xs-3">
+                <div className="section-feat">
+                    <div>
+                        <h3>Este pode ser o apartamento dos seus sonhos que você tanto procurou!</h3>
+                        <div>
+                            Este não é um apartamento comum. O seu trabalho, localizado na rua XXXXX, está apenas a 900m
+                            do seu apartamento. Isso é qualidade de vida garantida e muito mais tempo para você passar
+                            com quem realmente importa, como sua família e seus amigos que você tanto gosta.
+                        </div>
+                    </div>
+                    <img src="https://www.ufrgs.br/humanista/wp-content/uploads/2019/05/imagem195547-800x445.jpg" alt=""/>
+                </div>
+            </div>
+            <div className="MuiGrid-root jss164 MuiGrid-container MuiGrid-spacing-xs-3">
+                <div className="section-feat">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZQbZvJkyrVy24dOVWXuj6sZA4_aBtY_UCh42miN4zUCj2vQcC3w&s" alt=""/>
+                    <div>
+                        <h3>Este pode ser o apartamento dos seus sonhos que você tanto procurou!</h3>
+                        <div>
+                            Este não é um apartamento comum. O seu trabalho, localizado na rua XXXXX, está apenas a 900m
+                            do seu apartamento. Isso é qualidade de vida garantida e muito mais tempo para você passar
+                            com quem realmente importa, como sua família e seus amigos que você tanto gosta.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="MuiGrid-root jss164 MuiGrid-container MuiGrid-spacing-xs-3">
+                <section className="jss365 here-map">
+                    <HEREMap
+                        appId="bFDOZ1cahNKVNTGQV00f"
+                        appCode="8elG4aRfiDEZ2rjFyxeccA"
+                        center={{ lat: res.latitude, lng: res.longitude }}
+                        zoom={14}
+                    >
+                        <Marker lat={res.latitude} lng={res.longitude} />
+                        {result[0].hospital.map(item => {
+                            return (
+                                <Marker lat={item.position[0]} lng={item.position[1]}>
+                                    <img src={hospital} alt="" style={{width: '30px'}}/>
+                                </Marker>
+                            )
+                        })}
+                        {result[0].publicTransport.map(item => {
+                            return (
+                                <Marker lat={item.position[0]} lng={item.position[1]}>
+                                    <img src={bus} alt="" style={{width: '30px'}}/>
+                                </Marker>
+                            )
+                        })}
+                        {/*<RouteLine shape={shape} strokeColor="#48dad0" lineWidth={4} />*/}
+                    </HEREMap>
+                    <hr className="MuiDivider-root jss366"/>
+                </section>
+                <section data-testid="transformation-after-before" className="jss365"></section>
+            </div>
+        </Fragment>
     )
 }
