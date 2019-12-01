@@ -12,7 +12,7 @@
 }
 
 .section-feat > div {
-    font-size: 20px;
+    fontSize: 20px;
     line-height: 30px;
     padding-left: 0px;
     width: 50%;

@@ -1,35 +1,36 @@
 import React, {useState, useEffect, Fragment} from 'react'
 import { HEREMap, Marker } from 'here-maps-react'
-// import { useParams } from 'react-router-dom'
-// import axios from 'axios'
+import { useParams } from 'react-router-dom'
+import axios from 'axios'
 import hospital from '../images/heart-medical.svg'
 import bus from '../images/bus.svg'
 
-import result from './result'
-
 export default () => {
-    // const params = useParams()
+    const params = useParams()
 
     const [res, setRes] = useState(null)
 
     useEffect(() => {
-        if (result[0].hospital) {
-            if(!Array.isArray(result[0].hospital)) {
-                result[0].hospital = [result[0].hospital]
-            }
-        }
+        axios.get('http://localhost:4000/consultaid/' + params.id)
+            .then(({data: result}) => {
+                if (result[0].hospital) {
+                    if(!Array.isArray(result[0].hospital)) {
+                        result[0].hospital = [result[0].hospital]
+                    }
+                }
 
-        if(result[0].publicTransport) {
-            if(!Array.isArray(result[0].publicTransport)) {
-                result[0].publicTransport = [result[0].publicTransport]
-            }
-        }
+                if(result[0].publicTransport) {
+                    if(!Array.isArray(result[0].publicTransport)) {
+                        result[0].publicTransport = [result[0].publicTransport]
+                    }
+                }
 
-        setRes(result[0])
-    }, [])
+                setRes(result[0])
+            })
+    }, [params.id])
 
     if(!res) return null
-console.log('----->', res)
+console.log(res)
     return (
         <Fragment>
             <div className="MuiGrid-root jss164 MuiGrid-container MuiGrid-spacing-xs-3">
@@ -45,7 +46,7 @@ console.log('----->', res)
                     </div>
                 </div>
             </div>
-            {result[0].publicTransport && <div className="MuiGrid-root jss164 MuiGrid-container MuiGrid-spacing-xs-3">
+            {res.publicTransport && <div className="MuiGrid-root jss164 MuiGrid-container MuiGrid-spacing-xs-3">
                 <div className="section-feat">
                     <div>
                         <h3>O transporte urbano na porta de casa</h3>
@@ -58,7 +59,7 @@ console.log('----->', res)
                     <img src="https://www.ufrgs.br/humanista/wp-content/uploads/2019/05/imagem195547-800x445.jpg" alt=""/>
                 </div>
             </div>}
-            {result[0].hospital && <div className="MuiGrid-root jss164 MuiGrid-container MuiGrid-spacing-xs-3">
+            {res.hospital && <div className="MuiGrid-root jss164 MuiGrid-container MuiGrid-spacing-xs-3">
                 <div className="section-feat">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZQbZvJkyrVy24dOVWXuj6sZA4_aBtY_UCh42miN4zUCj2vQcC3w&s" alt=""/>
                     <div>
@@ -80,14 +81,14 @@ console.log('----->', res)
                         zoom={14}
                     >
                         <Marker lat={res.latitude} lng={res.longitude} />
-                        {result[0].hospital && result[0].hospital.map(item => {
+                        {res.hospital && res.hospital.map(item => {
                             return (
                                 <Marker lat={item.position[0]} lng={item.position[1]}>
                                     <img src={hospital} alt="" style={{width: '30px'}}/>
                                 </Marker>
                             )
                         })}
-                        {result[0].publicTransport && result[0].publicTransport.map(item => {
+                        {res.publicTransport && res.publicTransport.map(item => {
                             return (
                                 <Marker lat={item.position[0]} lng={item.position[1]}>
                                     <img src={bus} alt="" style={{width: '30px'}}/>

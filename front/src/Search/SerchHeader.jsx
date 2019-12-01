@@ -45,7 +45,7 @@ export default () => {
                 width: 1em;
                 height: 1em;
                 display: inline-block;
-                font-size: 1.7142857142857142rem;
+                fontSize: 1.7142857142857142rem;
                 transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
                 flex-shrink: 0;
                 user-select: none;
@@ -72,15 +72,15 @@ export default () => {
                 }
 
                 .MuiSvgIcon-fontSizeInherit-12 {
-                    font-size: inherit;
+                    fontSize: inherit;
                 }
 
                 .MuiSvgIcon-fontSizeSmall-13 {
-                    font-size: 1.4285714285714284rem;
+                    fontSize: 1.4285714285714284rem;
                 }
 
                 .MuiSvgIcon-fontSizeLarge-14 {
-                    font-size: 2.5rem;
+                    fontSize: 2.5rem;
                 }
 
                 .MuiSvgIcon-root-276 {
@@ -88,7 +88,7 @@ export default () => {
                     width: 1em;
                     height: 1em;
                     display: inline-block;
-                    font-size: 1.7142857142857142rem;
+                    fontSize: 1.7142857142857142rem;
                     transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
                     flex-shrink: 0;
                     user-select: none;
@@ -115,15 +115,15 @@ export default () => {
                 }
 
                 .MuiSvgIcon-fontSizeInherit-282 {
-                    font-size: inherit;
+                    fontSize: inherit;
                 }
 
                 .MuiSvgIcon-fontSizeSmall-283 {
-                    font-size: 1.4285714285714284rem;
+                    fontSize: 1.4285714285714284rem;
                 }
 
                 .MuiSvgIcon-fontSizeLarge-284 {
-                    font-size: 2.5rem;
+                    fontSize: 2.5rem;
                 }
 
                 .MuiSvgIcon-root-336 {
@@ -131,7 +131,7 @@ export default () => {
                     width: 1em;
                     height: 1em;
                     display: inline-block;
-                    font-size: 1.7142857142857142rem;
+                    fontSize: 1.7142857142857142rem;
                     transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
                     flex-shrink: 0;
                     user-select: none;
@@ -158,15 +158,15 @@ export default () => {
                 }
 
                 .MuiSvgIcon-fontSizeInherit-342 {
-                    font-size: inherit;
+                    fontSize: inherit;
                 }
 
                 .MuiSvgIcon-fontSizeSmall-343 {
-                    font-size: 1.4285714285714284rem;
+                    fontSize: 1.4285714285714284rem;
                 }
 
                 .MuiSvgIcon-fontSizeLarge-344 {
-                    font-size: 2.5rem;
+                    fontSize: 2.5rem;
                 }
 
                 .MuiSvgIcon-root {
@@ -174,7 +174,7 @@ export default () => {
                     width: 1em;
                     height: 1em;
                     display: inline-block;
-                    font-size: 1.5rem;
+                    fontSize: 1.5rem;
                     transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
                     flex-shrink: 0;
                     user-select: none;
@@ -201,15 +201,15 @@ export default () => {
                 }
 
                 .MuiSvgIcon-fontSizeInherit {
-                    font-size: inherit;
+                    fontSize: inherit;
                 }
 
                 .MuiSvgIcon-fontSizeSmall {
-                    font-size: 1.25rem;
+                    fontSize: 1.25rem;
                 }
 
                 .MuiSvgIcon-fontSizeLarge {
-                    font-size: 2.1875rem;
+                    fontSize: 2.1875rem;
                 }
 
                 .MuiSvgIcon-root-731 {
@@ -217,7 +217,7 @@ export default () => {
                     width: 1em;
                     height: 1em;
                     display: inline-block;
-                    font-size: 1.7142857142857142rem;
+                    fontSize: 1.7142857142857142rem;
                     transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
                     flex-shrink: 0;
                     user-select: none;
@@ -244,15 +244,15 @@ export default () => {
                 }
 
                 .MuiSvgIcon-fontSizeInherit-737 {
-                    font-size: inherit;
+                    fontSize: inherit;
                 }
 
                 .MuiSvgIcon-fontSizeSmall-738 {
-                    font-size: 1.4285714285714284rem;
+                    fontSize: 1.4285714285714284rem;
                 }
 
                 .MuiSvgIcon-fontSizeLarge-739 {
-                    font-size: 2.5rem;
+                    fontSize: 2.5rem;
                 }
 
                 .MuiPaper-root {
@@ -688,7 +688,7 @@ export default () => {
                 }
 
                 .MuiTypography-body2-31 {
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 400;
                     line-height: 1.5;
@@ -697,20 +697,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-body2-31 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-body2-31 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 .MuiTypography-body1-32 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 400;
                     line-height: 1.5714285714285714;
@@ -719,20 +719,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-body1-32 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-body1-32 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 .MuiTypography-caption-33 {
-                    font-size: 0.625rem;
+                    fontSize: 0.625rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 400;
                     line-height: 1.6;
@@ -741,20 +741,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-caption-33 {
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-caption-33 {
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     line-height: 1.5;
                 }
                 }
 
                 .MuiTypography-button-34 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 500;
                     line-height: 1.75;
@@ -762,7 +762,7 @@ export default () => {
                 }
 
                 .MuiTypography-h1-35 {
-                    font-size: 2.5rem;
+                    fontSize: 2.5rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 300;
                     line-height: 1.2;
@@ -771,20 +771,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-h1-35 {
-                    font-size: 3rem;
+                    fontSize: 3rem;
                     line-height: 1.2083333333333333;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-h1-35 {
-                    font-size: 3.5rem;
+                    fontSize: 3.5rem;
                     line-height: 1.2142857142857142;
                 }
                 }
 
                 .MuiTypography-h2-36 {
-                    font-size: 2rem;
+                    fontSize: 2rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 300;
                     line-height: 1.1875;
@@ -793,20 +793,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-h2-36 {
-                    font-size: 2.5rem;
+                    fontSize: 2.5rem;
                     line-height: 1.2;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-h2-36 {
-                    font-size: 3rem;
+                    fontSize: 3rem;
                     line-height: 1.2083333333333333;
                 }
                 }
 
                 .MuiTypography-h3-37 {
-                    font-size: 1.5rem;
+                    fontSize: 1.5rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 400;
                     line-height: 1.1666666666666667;
@@ -815,20 +815,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-h3-37 {
-                    font-size: 1.75rem;
+                    fontSize: 1.75rem;
                     line-height: 1.2142857142857142;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-h3-37 {
-                    font-size: 2.125rem;
+                    fontSize: 2.125rem;
                     line-height: 1.1764705882352942;
                 }
                 }
 
                 .MuiTypography-h4-38 {
-                    font-size: 1.125rem;
+                    fontSize: 1.125rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 400;
                     line-height: 1.2222222222222223;
@@ -837,34 +837,34 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-h4-38 {
-                    font-size: 1.25rem;
+                    fontSize: 1.25rem;
                     line-height: 1.2;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-h4-38 {
-                    font-size: 1.5rem;
+                    fontSize: 1.5rem;
                     line-height: 1.1666666666666667;
                 }
                 }
 
                 .MuiTypography-h5-39 {
-                    font-size: 1.7142857142857142rem;
+                    fontSize: 1.7142857142857142rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 400;
                     line-height: 1.33;
                 }
 
                 .MuiTypography-h6-40 {
-                    font-size: 1.4285714285714284rem;
+                    fontSize: 1.4285714285714284rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 500;
                     line-height: 1.6;
                 }
 
                 .MuiTypography-subtitle1-41 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 700;
                     line-height: 1.5;
@@ -873,20 +873,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-subtitle1-41 {
-                    font-size: 1.125rem;
+                    fontSize: 1.125rem;
                     line-height: 1.5555555555555556;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-subtitle1-41 {
-                    font-size: 1.25rem;
+                    fontSize: 1.25rem;
                     line-height: 1.5;
                 }
                 }
 
                 .MuiTypography-subtitle2-42 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 700;
                     line-height: 1.5714285714285714;
@@ -895,20 +895,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-subtitle2-42 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-subtitle2-42 {
-                    font-size: 1.125rem;
+                    fontSize: 1.125rem;
                     line-height: 1.5555555555555556;
                 }
                 }
 
                 .MuiTypography-overline-43 {
-                    font-size: 0.5rem;
+                    fontSize: 0.5rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 700;
                     line-height: 1.25;
@@ -918,7 +918,7 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-overline-43 {
-                    font-size: 0.625rem;
+                    fontSize: 0.625rem;
                     line-height: 1.2;
                 }
                 }
@@ -997,28 +997,28 @@ export default () => {
                 }
 
                 .MuiTypography-body2 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-family: proxima-nova, Arial;
                     font-weight: normal;
                     line-height: 1.375rem;
                 }
 
                 .MuiTypography-body1 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     font-family: proxima-nova, Arial;
                     font-weight: normal;
                     line-height: 1.5rem;
                 }
 
                 .MuiTypography-caption {
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     font-family: proxima-nova, Arial;
                     font-weight: normal;
                     line-height: 1rem;
                 }
 
                 .MuiTypography-button {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-family: proxima-nova, Arial;
                     font-weight: 600;
                     line-height: 1.5rem;
@@ -1026,7 +1026,7 @@ export default () => {
                 }
 
                 .MuiTypography-h1 {
-                    font-size: 6rem;
+                    fontSize: 6rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 300;
                     line-height: 6.5rem;
@@ -1034,13 +1034,13 @@ export default () => {
 
                 @media (max-width: 967.95px) {
                     .MuiTypography-h1 {
-                    font-size: 3.75rem;
+                    fontSize: 3.75rem;
                     line-height: 4.25rem;
                 }
                 }
 
                 .MuiTypography-h2 {
-                    font-size: 3.75rem;
+                    fontSize: 3.75rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 300;
                     line-height: 4.25rem;
@@ -1048,13 +1048,13 @@ export default () => {
 
                 @media (max-width: 967.95px) {
                     .MuiTypography-h2 {
-                    font-size: 3rem;
+                    fontSize: 3rem;
                     line-height: 3.5rem;
                 }
                 }
 
                 .MuiTypography-h3 {
-                    font-size: 3rem;
+                    fontSize: 3rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 400;
                     line-height: 3.5rem;
@@ -1062,13 +1062,13 @@ export default () => {
 
                 @media (max-width: 967.95px) {
                     .MuiTypography-h3 {
-                    font-size: 2.125rem;
+                    fontSize: 2.125rem;
                     line-height: 2.625rem;
                 }
                 }
 
                 .MuiTypography-h4 {
-                    font-size: 2.125rem;
+                    fontSize: 2.125rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 400;
                     line-height: 2.625rem;
@@ -1076,13 +1076,13 @@ export default () => {
 
                 @media (max-width: 967.95px) {
                     .MuiTypography-h4 {
-                    font-size: 1.5rem;
+                    fontSize: 1.5rem;
                     line-height: 2rem;
                 }
                 }
 
                 .MuiTypography-h5 {
-                    font-size: 1.5rem;
+                    fontSize: 1.5rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 400;
                     line-height: 2rem;
@@ -1090,34 +1090,34 @@ export default () => {
 
                 @media (max-width: 967.95px) {
                     .MuiTypography-h5 {
-                    font-size: 1.25rem;
+                    fontSize: 1.25rem;
                     line-height: 1.75rem;
                 }
                 }
 
                 .MuiTypography-h6 {
-                    font-size: 1.25rem;
+                    fontSize: 1.25rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 500;
                     line-height: 1.75rem;
                 }
 
                 .MuiTypography-subtitle1 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     font-family: proxima-nova, Arial;
                     font-weight: bold;
                     line-height: 1.5rem;
                 }
 
                 .MuiTypography-subtitle2 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-family: proxima-nova, Arial;
                     font-weight: bold;
                     line-height: 1.375rem;
                 }
 
                 .MuiTypography-overline {
-                    font-size: 0.625rem;
+                    fontSize: 0.625rem;
                     font-family: proxima-nova, Arial;
                     font-weight: bold;
                     line-height: 1rem;
@@ -1199,7 +1199,7 @@ export default () => {
                 }
 
                 .MuiTypography-body2-747 {
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 400;
                     line-height: 1.5;
@@ -1208,20 +1208,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-body2-747 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-body2-747 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 .MuiTypography-body1-748 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 400;
                     line-height: 1.5714285714285714;
@@ -1230,20 +1230,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-body1-748 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-body1-748 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 .MuiTypography-caption-749 {
-                    font-size: 0.625rem;
+                    fontSize: 0.625rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 400;
                     line-height: 1.6;
@@ -1252,20 +1252,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-caption-749 {
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-caption-749 {
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     line-height: 1.5;
                 }
                 }
 
                 .MuiTypography-button-750 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 500;
                     line-height: 1.75;
@@ -1273,7 +1273,7 @@ export default () => {
                 }
 
                 .MuiTypography-h1-751 {
-                    font-size: 2.5rem;
+                    fontSize: 2.5rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 300;
                     line-height: 1.2;
@@ -1282,20 +1282,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-h1-751 {
-                    font-size: 3rem;
+                    fontSize: 3rem;
                     line-height: 1.2083333333333333;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-h1-751 {
-                    font-size: 3.5rem;
+                    fontSize: 3.5rem;
                     line-height: 1.2142857142857142;
                 }
                 }
 
                 .MuiTypography-h2-752 {
-                    font-size: 2rem;
+                    fontSize: 2rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 300;
                     line-height: 1.1875;
@@ -1304,20 +1304,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-h2-752 {
-                    font-size: 2.5rem;
+                    fontSize: 2.5rem;
                     line-height: 1.2;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-h2-752 {
-                    font-size: 3rem;
+                    fontSize: 3rem;
                     line-height: 1.2083333333333333;
                 }
                 }
 
                 .MuiTypography-h3-753 {
-                    font-size: 1.5rem;
+                    fontSize: 1.5rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 400;
                     line-height: 1.1666666666666667;
@@ -1326,20 +1326,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-h3-753 {
-                    font-size: 1.75rem;
+                    fontSize: 1.75rem;
                     line-height: 1.2142857142857142;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-h3-753 {
-                    font-size: 2.125rem;
+                    fontSize: 2.125rem;
                     line-height: 1.1764705882352942;
                 }
                 }
 
                 .MuiTypography-h4-754 {
-                    font-size: 1.125rem;
+                    fontSize: 1.125rem;
                     font-family: Gilroy-ExtraBold;
                     font-weight: 400;
                     line-height: 1.2222222222222223;
@@ -1348,34 +1348,34 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-h4-754 {
-                    font-size: 1.25rem;
+                    fontSize: 1.25rem;
                     line-height: 1.2;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-h4-754 {
-                    font-size: 1.5rem;
+                    fontSize: 1.5rem;
                     line-height: 1.1666666666666667;
                 }
                 }
 
                 .MuiTypography-h5-755 {
-                    font-size: 1.7142857142857142rem;
+                    fontSize: 1.7142857142857142rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 400;
                     line-height: 1.33;
                 }
 
                 .MuiTypography-h6-756 {
-                    font-size: 1.4285714285714284rem;
+                    fontSize: 1.4285714285714284rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 500;
                     line-height: 1.6;
                 }
 
                 .MuiTypography-subtitle1-757 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 700;
                     line-height: 1.5;
@@ -1384,20 +1384,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-subtitle1-757 {
-                    font-size: 1.125rem;
+                    fontSize: 1.125rem;
                     line-height: 1.5555555555555556;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-subtitle1-757 {
-                    font-size: 1.25rem;
+                    fontSize: 1.25rem;
                     line-height: 1.5;
                 }
                 }
 
                 .MuiTypography-subtitle2-758 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 700;
                     line-height: 1.5714285714285714;
@@ -1406,20 +1406,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-subtitle2-758 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .MuiTypography-subtitle2-758 {
-                    font-size: 1.125rem;
+                    fontSize: 1.125rem;
                     line-height: 1.5555555555555556;
                 }
                 }
 
                 .MuiTypography-overline-759 {
-                    font-size: 0.5rem;
+                    fontSize: 0.5rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 700;
                     line-height: 1.25;
@@ -1429,7 +1429,7 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .MuiTypography-overline-759 {
-                    font-size: 0.625rem;
+                    fontSize: 0.625rem;
                     line-height: 1.2;
                 }
                 }
@@ -1506,7 +1506,7 @@ export default () => {
                 .MuiButton-root-62 {
                     color: #191F23;
                     padding: 6px 16px;
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     min-width: 64px;
                     box-sizing: border-box;
                     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -1693,32 +1693,32 @@ export default () => {
 
                 .MuiButton-textSizeSmall-76 {
                     padding: 4px 5px;
-                    font-size: 0.9285714285714285rem;
+                    fontSize: 0.9285714285714285rem;
                 }
 
                 .MuiButton-textSizeLarge-77 {
                     padding: 8px 11px;
-                    font-size: 1.0714285714285714rem;
+                    fontSize: 1.0714285714285714rem;
                 }
 
                 .MuiButton-outlinedSizeSmall-78 {
                     padding: 3px 9px;
-                    font-size: 0.9285714285714285rem;
+                    fontSize: 0.9285714285714285rem;
                 }
 
                 .MuiButton-outlinedSizeLarge-79 {
                     padding: 7px 21px;
-                    font-size: 1.0714285714285714rem;
+                    fontSize: 1.0714285714285714rem;
                 }
 
                 .MuiButton-containedSizeSmall-80 {
                     padding: 4px 10px;
-                    font-size: 0.9285714285714285rem;
+                    fontSize: 0.9285714285714285rem;
                 }
 
                 .MuiButton-containedSizeLarge-81 {
                     padding: 8px 22px;
-                    font-size: 1.0714285714285714rem;
+                    fontSize: 1.0714285714285714rem;
                 }
 
                 .MuiButton-fullWidth-84 {
@@ -1738,21 +1738,21 @@ export default () => {
                 }
 
                 .MuiButton-iconSizeSmall-87 > *:first-child {
-                    font-size: 18px;
+                    fontSize: 18px;
                 }
 
                 .MuiButton-iconSizeMedium-88 > *:first-child {
-                    font-size: 20px;
+                    fontSize: 20px;
                 }
 
                 .MuiButton-iconSizeLarge-89 > *:first-child {
-                    font-size: 22px;
+                    fontSize: 22px;
                 }
 
                 .MuiButton-root-245 {
                     color: #191F23;
                     padding: 6px 16px;
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     min-width: 64px;
                     box-sizing: border-box;
                     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -1939,32 +1939,32 @@ export default () => {
 
                 .MuiButton-textSizeSmall-259 {
                     padding: 4px 5px;
-                    font-size: 0.9285714285714285rem;
+                    fontSize: 0.9285714285714285rem;
                 }
 
                 .MuiButton-textSizeLarge-260 {
                     padding: 8px 11px;
-                    font-size: 1.0714285714285714rem;
+                    fontSize: 1.0714285714285714rem;
                 }
 
                 .MuiButton-outlinedSizeSmall-261 {
                     padding: 3px 9px;
-                    font-size: 0.9285714285714285rem;
+                    fontSize: 0.9285714285714285rem;
                 }
 
                 .MuiButton-outlinedSizeLarge-262 {
                     padding: 7px 21px;
-                    font-size: 1.0714285714285714rem;
+                    fontSize: 1.0714285714285714rem;
                 }
 
                 .MuiButton-containedSizeSmall-263 {
                     padding: 4px 10px;
-                    font-size: 0.9285714285714285rem;
+                    fontSize: 0.9285714285714285rem;
                 }
 
                 .MuiButton-containedSizeLarge-264 {
                     padding: 8px 22px;
-                    font-size: 1.0714285714285714rem;
+                    fontSize: 1.0714285714285714rem;
                 }
 
                 .MuiButton-fullWidth-267 {
@@ -1984,21 +1984,21 @@ export default () => {
                 }
 
                 .MuiButton-iconSizeSmall-270 > *:first-child {
-                    font-size: 18px;
+                    fontSize: 18px;
                 }
 
                 .MuiButton-iconSizeMedium-271 > *:first-child {
-                    font-size: 20px;
+                    fontSize: 20px;
                 }
 
                 .MuiButton-iconSizeLarge-272 > *:first-child {
-                    font-size: 22px;
+                    fontSize: 22px;
                 }
 
                 .MuiButton-root-305 {
                     color: #191F23;
                     padding: 6px 16px;
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     min-width: 64px;
                     box-sizing: border-box;
                     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -2185,32 +2185,32 @@ export default () => {
 
                 .MuiButton-textSizeSmall-319 {
                     padding: 4px 5px;
-                    font-size: 0.9285714285714285rem;
+                    fontSize: 0.9285714285714285rem;
                 }
 
                 .MuiButton-textSizeLarge-320 {
                     padding: 8px 11px;
-                    font-size: 1.0714285714285714rem;
+                    fontSize: 1.0714285714285714rem;
                 }
 
                 .MuiButton-outlinedSizeSmall-321 {
                     padding: 3px 9px;
-                    font-size: 0.9285714285714285rem;
+                    fontSize: 0.9285714285714285rem;
                 }
 
                 .MuiButton-outlinedSizeLarge-322 {
                     padding: 7px 21px;
-                    font-size: 1.0714285714285714rem;
+                    fontSize: 1.0714285714285714rem;
                 }
 
                 .MuiButton-containedSizeSmall-323 {
                     padding: 4px 10px;
-                    font-size: 0.9285714285714285rem;
+                    fontSize: 0.9285714285714285rem;
                 }
 
                 .MuiButton-containedSizeLarge-324 {
                     padding: 8px 22px;
-                    font-size: 1.0714285714285714rem;
+                    fontSize: 1.0714285714285714rem;
                 }
 
                 .MuiButton-fullWidth-327 {
@@ -2230,21 +2230,21 @@ export default () => {
                 }
 
                 .MuiButton-iconSizeSmall-330 > *:first-child {
-                    font-size: 18px;
+                    fontSize: 18px;
                 }
 
                 .MuiButton-iconSizeMedium-331 > *:first-child {
-                    font-size: 20px;
+                    fontSize: 20px;
                 }
 
                 .MuiButton-iconSizeLarge-332 > *:first-child {
-                    font-size: 22px;
+                    fontSize: 22px;
                 }
 
                 .MuiButton-root {
                     color: #191F23;
                     padding: 6px 16px;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     min-width: 64px;
                     box-sizing: border-box;
                     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -2431,32 +2431,32 @@ export default () => {
 
                 .MuiButton-textSizeSmall {
                     padding: 4px 5px;
-                    font-size: 0.8125rem;
+                    fontSize: 0.8125rem;
                 }
 
                 .MuiButton-textSizeLarge {
                     padding: 8px 11px;
-                    font-size: 0.9375rem;
+                    fontSize: 0.9375rem;
                 }
 
                 .MuiButton-outlinedSizeSmall {
                     padding: 3px 9px;
-                    font-size: 0.8125rem;
+                    fontSize: 0.8125rem;
                 }
 
                 .MuiButton-outlinedSizeLarge {
                     padding: 7px 21px;
-                    font-size: 0.9375rem;
+                    fontSize: 0.9375rem;
                 }
 
                 .MuiButton-containedSizeSmall {
                     padding: 4px 10px;
-                    font-size: 0.8125rem;
+                    fontSize: 0.8125rem;
                 }
 
                 .MuiButton-containedSizeLarge {
                     padding: 8px 22px;
-                    font-size: 0.9375rem;
+                    fontSize: 0.9375rem;
                 }
 
                 .MuiButton-fullWidth {
@@ -2476,15 +2476,15 @@ export default () => {
                 }
 
                 .MuiButton-iconSizeSmall > *:first-child {
-                    font-size: 18px;
+                    fontSize: 18px;
                 }
 
                 .MuiButton-iconSizeMedium > *:first-child {
-                    font-size: 20px;
+                    fontSize: 20px;
                 }
 
                 .MuiButton-iconSizeLarge > *:first-child {
-                    font-size: 22px;
+                    fontSize: 22px;
                 }
 
                 .MuiCard-root {
@@ -2547,7 +2547,7 @@ export default () => {
                     color: rgba(0, 0, 0, 0.54);
                     padding: 12px;
                     overflow: visible;
-                    font-size: 1.5rem;
+                    fontSize: 1.5rem;
                     text-align: center;
                     transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
                     border-radius: 50%;
@@ -2618,7 +2618,7 @@ export default () => {
 
                 .MuiIconButton-sizeSmall {
                     padding: 3px;
-                    font-size: 1.125rem;
+                    fontSize: 1.125rem;
                 }
 
                 .MuiIconButton-label {
@@ -2725,7 +2725,7 @@ export default () => {
                 body {
                     color: #191F23;
                     margin: 0;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-family: proxima-nova, Arial;
                     font-weight: normal;
                     line-height: 1.375rem;
@@ -2908,7 +2908,7 @@ export default () => {
                 .MuiFormLabel-root {
                     color: #6E8391;
                     padding: 0;
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     font-family: proxima-nova, Arial;
                     font-weight: normal;
                     line-height: 1;
@@ -3857,7 +3857,7 @@ export default () => {
                 .MuiTooltip-tooltip {
                     color: #fff;
                     padding: 4px 8px;
-                    font-size: 0.625rem;
+                    fontSize: 0.625rem;
                     max-width: 300px;
                     word-wrap: break-word;
                     font-family: proxima-nova, Arial;
@@ -3869,7 +3869,7 @@ export default () => {
 
                 .MuiTooltip-touch {
                     padding: 8px 16px;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: 400;
                     line-height: 1.14286em;
                 }
@@ -4699,7 +4699,7 @@ export default () => {
                 }
 
                 .jss25 {
-                    font-size: 3.25rem;
+                    fontSize: 3.25rem;
                     font-family: Gilroy-Light;
                     line-height: 1.1923076923076923;
                     letter-spacing: 0;
@@ -4707,20 +4707,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss25 {
-                    font-size: 4rem;
+                    fontSize: 4rem;
                     line-height: 1.1875;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss25 {
-                    font-size: 4.75rem;
+                    fontSize: 4.75rem;
                     line-height: 1.2105263157894737;
                 }
                 }
 
                 .jss26 {
-                    font-size: 2.75rem;
+                    fontSize: 2.75rem;
                     font-family: Gilroy-Light;
                     line-height: 1.1818181818181819;
                     letter-spacing: 0;
@@ -4728,20 +4728,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss26 {
-                    font-size: 3.25rem;
+                    fontSize: 3.25rem;
                     line-height: 1.1923076923076923;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss26 {
-                    font-size: 4rem;
+                    fontSize: 4rem;
                     line-height: 1.1875;
                 }
                 }
 
                 .jss27 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: 400;
                     line-height: 1.5714285714285714;
                     letter-spacing: 0;
@@ -4749,20 +4749,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss27 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss27 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 .jss28 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: 600;
                     line-height: 1.5714285714285714;
                     letter-spacing: 0;
@@ -4771,20 +4771,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss28 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss28 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 .jss29 {
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     font-weight: 600;
                     line-height: 1.5;
                     letter-spacing: 0;
@@ -4793,14 +4793,14 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss29 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss29 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
@@ -4810,13 +4810,13 @@ export default () => {
                 }
 
                 .jss426 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: normal;
                     line-height: 1.125rem;
                 }
 
                 .jss428 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     font-weight: 600;
                     line-height: 1.5rem;
                 }
@@ -4826,7 +4826,7 @@ export default () => {
                 }
 
                 .jss741 {
-                    font-size: 3.25rem;
+                    fontSize: 3.25rem;
                     font-family: Gilroy-Light;
                     line-height: 1.1923076923076923;
                     letter-spacing: 0;
@@ -4834,20 +4834,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss741 {
-                    font-size: 4rem;
+                    fontSize: 4rem;
                     line-height: 1.1875;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss741 {
-                    font-size: 4.75rem;
+                    fontSize: 4.75rem;
                     line-height: 1.2105263157894737;
                 }
                 }
 
                 .jss742 {
-                    font-size: 2.75rem;
+                    fontSize: 2.75rem;
                     font-family: Gilroy-Light;
                     line-height: 1.1818181818181819;
                     letter-spacing: 0;
@@ -4855,20 +4855,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss742 {
-                    font-size: 3.25rem;
+                    fontSize: 3.25rem;
                     line-height: 1.1923076923076923;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss742 {
-                    font-size: 4rem;
+                    fontSize: 4rem;
                     line-height: 1.1875;
                 }
                 }
 
                 .jss743 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: 400;
                     line-height: 1.5714285714285714;
                     letter-spacing: 0;
@@ -4876,20 +4876,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss743 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss743 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 .jss744 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: 600;
                     line-height: 1.5714285714285714;
                     letter-spacing: 0;
@@ -4898,20 +4898,20 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss744 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss744 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 .jss745 {
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     font-weight: 600;
                     line-height: 1.5;
                     letter-spacing: 0;
@@ -4920,14 +4920,14 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss745 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss745 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
@@ -4945,15 +4945,15 @@ export default () => {
                 }
 
                 .jss233 {
-                    font-size: 1.1428571428571428rem;
+                    fontSize: 1.1428571428571428rem;
                 }
 
                 .jss234 {
-                    font-size: 1.7142857142857142rem;
+                    fontSize: 1.7142857142857142rem;
                 }
 
                 .jss235 {
-                    font-size: 2.2857142857142856rem;
+                    fontSize: 2.2857142857142856rem;
                 }
 
                 .jss292 {
@@ -4961,15 +4961,15 @@ export default () => {
                 }
 
                 .jss293 {
-                    font-size: 1.1428571428571428rem;
+                    fontSize: 1.1428571428571428rem;
                 }
 
                 .jss294 {
-                    font-size: 1.7142857142857142rem;
+                    fontSize: 1.7142857142857142rem;
                 }
 
                 .jss295 {
-                    font-size: 2.2857142857142856rem;
+                    fontSize: 2.2857142857142856rem;
                 }
 
                 .jss236 {
@@ -5024,7 +5024,7 @@ export default () => {
 
                 .jss241 {
                     padding: 4px 16px;
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     font-weight: 600;
                     line-height: 1.5;
                     letter-spacing: 0;
@@ -5033,21 +5033,21 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss241 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss241 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 .jss242 {
                     padding: 12px 24px;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: 600;
                     line-height: 1.5714285714285714;
                     letter-spacing: 0;
@@ -5056,21 +5056,21 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss242 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss242 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 .jss243 {
                     padding: 16px 40px;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: 600;
                     line-height: 1.5714285714285714;
                     letter-spacing: 0;
@@ -5079,14 +5079,14 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss243 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss243 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
@@ -5150,7 +5150,7 @@ export default () => {
 
                 .jss301 {
                     padding: 4px 16px;
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     font-weight: 600;
                     line-height: 1.5;
                     letter-spacing: 0;
@@ -5159,21 +5159,21 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss301 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss301 {
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     line-height: 1.5714285714285714;
                 }
                 }
 
                 .jss302 {
                     padding: 12px 24px;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: 600;
                     line-height: 1.5714285714285714;
                     letter-spacing: 0;
@@ -5182,21 +5182,21 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss302 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss302 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 .jss303 {
                     padding: 16px 40px;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: 600;
                     line-height: 1.5714285714285714;
                     letter-spacing: 0;
@@ -5205,14 +5205,14 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss303 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss303 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
@@ -5290,7 +5290,7 @@ export default () => {
 
                 .jss61 {
                     padding: 0;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-family: Proxima-Nova, Arial, sans-serif;
                     font-weight: 700;
                     line-height: 1.5714285714285714;
@@ -5299,14 +5299,14 @@ export default () => {
 
                 @media (min-width: 600px) {
                     .jss61 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                     line-height: 1.5;
                 }
                 }
 
                 @media (min-width: 1280px) {
                     .jss61 {
-                    font-size: 1.125rem;
+                    fontSize: 1.125rem;
                     line-height: 1.5555555555555556;
                 }
                 }
@@ -5332,7 +5332,7 @@ export default () => {
 
                 .jss780 {
                     color: #FFFFFF;
-                    font-size: 1.1428571428571428rem;
+                    fontSize: 1.1428571428571428rem;
                     margin-right: 8px;
                 }
 
@@ -5348,7 +5348,7 @@ export default () => {
 
                 .jss787 {
                     color: #FFFFFF;
-                    font-size: 1.1428571428571428rem;
+                    fontSize: 1.1428571428571428rem;
                     margin-right: 8px;
                 }
 
@@ -5392,7 +5392,7 @@ export default () => {
                 }
 
                 .jss526 {
-                    font-size: 0.75rem;
+                    fontSize: 0.75rem;
                     letter-spacing: 0.025rem;
                 }
 
@@ -5612,7 +5612,7 @@ export default () => {
 
                 .jss548 {
                     margin: 16px 0;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                     font-weight: normal;
                     line-height: 1.125rem;
                 }
@@ -5635,7 +5635,7 @@ export default () => {
                     color: #FF6023;
                     bottom: -28px;
                     position: absolute;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                 }
 
                 .jss551 {
@@ -5644,7 +5644,7 @@ export default () => {
                 }
 
                 .jss552 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                 }
 
                 .jss553 {
@@ -5688,12 +5688,12 @@ export default () => {
 
                 .jss544 {
                     margin: 16px 0 32px;
-                    font-size: 0.875rem;
+                    fontSize: 0.875rem;
                 }
 
                 @media (min-width: 767px) {
                     .jss544 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                 }
                 }
 
@@ -5886,7 +5886,7 @@ export default () => {
 
                 @media (min-width: 767px) {
                     .jss231 {
-                    font-size: 1rem;
+                    fontSize: 1rem;
                 }
                 }
 
@@ -6221,7 +6221,7 @@ export default () => {
             }
 
                 h1 {
-                font-size: 2em;
+                fontSize: 2em;
                 margin: 0.67em 0;
             }
 
@@ -6233,7 +6233,7 @@ export default () => {
 
                 pre {
                 font-family: monospace, monospace;
-                font-size: 1em;
+                fontSize: 1em;
             }
 
                 a {
@@ -6254,15 +6254,15 @@ export default () => {
 
                 code, kbd, samp {
                 font-family: monospace, monospace;
-                font-size: 1em;
+                fontSize: 1em;
             }
 
                 small {
-                font-size: 80%;
+                fontSize: 80%;
             }
 
                 sub, sup {
-                font-size: 75%;
+                fontSize: 75%;
                 line-height: 0;
                 position: relative;
                 vertical-align: baseline;
@@ -6282,7 +6282,7 @@ export default () => {
 
                 button, input, optgroup, select, textarea {
                 font-family: inherit;
-                font-size: 100%;
+                fontSize: 100%;
                 line-height: 1.15;
                 margin: 0;
             }
@@ -6377,7 +6377,7 @@ export default () => {
             }
 
                 body {
-                font-size: 16px;
+                fontSize: 16px;
                 text-rendering: optimizeLegibility;
                 -webkit-font-smoothing: antialiased;
                 color: #3E3F40;

@@ -13,8 +13,8 @@ export default () => {
                     <div className="MuiBox-root-1 jss5 jss3 jss4"><a className="" target="_self" title="Loft" href="/">
                         <svg className="MuiSvgIcon-root-6" focusable="false" viewBox="0 0 140 119" color="#FF6023"
                              aria-hidden="false"
-                             role="img" style={{"font-size":"40px"}}>
-                            <g fill-rule="evenodd">
+                             role="img" style={{"fontSize":"40px"}}>
+                            <g fillRule="evenodd">
                                 <polygon
                                     points="139.879 44.876 131.05 44.876 131.05 28.52 118.437 28.52 118.437 98.567 131.05 98.567 131.05 57.384 139.879 57.384"></polygon>
                                 <path
@@ -156,7 +156,7 @@ export default () => {
                                     <svg className="MuiSvgIcon-root-671" focusable="false" viewBox="0 0 140 119"
                                          color="#FFFFFF"
                                          aria-hidden="false" role="img" style={{"fontSize":"56px"}}>
-                                        <g fill-rule="evenodd">
+                                        <g fillRule="evenodd">
                                             <polygon
                                                 points="139.879 44.876 131.05 44.876 131.05 28.52 118.437 28.52 118.437 98.567 131.05 98.567 131.05 57.384 139.879 57.384"></polygon>
                                             <path
@@ -177,10 +177,10 @@ export default () => {
                                         <svg className="MuiSvgIcon-root-671 jss718 MuiSvgIcon-colorPrimary-672"
                                              focusable="false"
                                              viewBox="0 0 24 24" aria-hidden="true" role="presentation">
-                                            <g fill-rule="evenodd">
-                                                <path fill-rule="nonzero"
+                                            <g fillRule="evenodd">
+                                                <path fillRule="nonzero"
                                                       d="M16.5 0h-9A7.5 7.5 0 0 0 0 7.5v9A7.5 7.5 0 0 0 7.5 24h9a7.5 7.5 0 0 0 7.5-7.5v-9A7.5 7.5 0 0 0 16.5 0zm5.25 16.5a5.256 5.256 0 0 1-5.25 5.25h-9a5.256 5.256 0 0 1-5.25-5.25v-9A5.256 5.256 0 0 1 7.5 2.25h9a5.256 5.256 0 0 1 5.25 5.25v9z"></path>
-                                                <path fill-rule="nonzero"
+                                                <path fillRule="nonzero"
                                                       d="M12 6a6 6 0 1 0 0 12 6 6 0 0 0 0-12zm0 9.75A3.755 3.755 0 0 1 8.25 12 3.754 3.754 0 0 1 12 8.25 3.754 3.754 0 0 1 15.75 12 3.755 3.755 0 0 1 12 15.75z"></path>
                                                 <circle cx="18.45" cy="5.55" r="1"></circle>
                                             </g>
@@ -190,7 +190,7 @@ export default () => {
                                         <svg className="MuiSvgIcon-root-671 jss718 MuiSvgIcon-colorPrimary-672"
                                              focusable="false"
                                              viewBox="0 0 24 24" aria-hidden="true" role="presentation">
-                                            <path fill-rule="evenodd"
+                                            <path fillRule="evenodd"
                                                   d="M21 0H3C1.345 0 0 1.345 0 3v18c0 1.654 1.345 3 3 3h9v-8.25H9V12h3V9a4.5 4.5 0 0 1 4.5-4.5h3v3.75H18c-.828 0-1.5-.078-1.5.75v3h3.75l-1.5 3.75H16.5V24H21c1.654 0 3-1.346 3-3V3c0-1.655-1.346-3-3-3z"></path>
                                         </svg>
                                     </a><a href="https://www.linkedin.com/company/loftbr/" target="_blank"
@@ -199,7 +199,7 @@ export default () => {
                                         <svg className="MuiSvgIcon-root-671 jss718 MuiSvgIcon-colorPrimary-672"
                                              focusable="false"
                                              viewBox="0 0 24 24" aria-hidden="true" role="presentation">
-                                            <path fill-rule="nonzero"
+                                            <path fillRule="nonzero"
                                                   d="M22.228 0H1.773C.794 0 0 .77 0 1.72v20.56C0 23.23.794 24 1.773 24h20.455c.98 0 1.772-.77 1.772-1.72V1.72C24 .77 23.207 0 22.228 0zM7.276 20.09H3.65V9.254h3.626V20.09zM5.463 7.774H5.44c-1.216 0-2.004-.832-2.004-1.873 0-1.062.811-1.871 2.051-1.871 1.24 0 2.003.808 2.028 1.87 0 1.042-.787 1.874-2.05 1.874zM20.348 20.09h-3.625v-5.798c0-1.457-.526-2.45-1.837-2.45-1.002 0-1.598.67-1.86 1.317-.096.232-.12.555-.12.878v6.052H9.282s.047-9.819 0-10.835h3.625v1.536c.48-.738 1.34-1.791 3.266-1.791 2.386 0 4.175 1.548 4.175 4.877v6.214zm-6.785-7.374c.266-.437.638-.962 1.008-1.473v1.473h-1.008z"></path>
                                         </svg>
                                     </a></div>
