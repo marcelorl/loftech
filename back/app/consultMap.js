@@ -34,7 +34,7 @@ app.get("/consultarGeral", (req, res) => {
         if (err) throw err;
         var dbo = db.db("loftech");
 
-        dbo.collection("apartament").find({ price: { $lt: body.price } })
+        dbo.collection("apartament").find({ price: { $lt: body.price } }).limit(50)
             .toArray(async (err, result) => {
                 if (err) throw err
                 console.log(result)
