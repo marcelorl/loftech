@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
-
+var cors = require('cors')
 app.use(express.json())
-
+app.use(cors())
 var MongoClient = require("mongodb").MongoClient;
 const { ObjectId } = require('mongodb'); // or ObjectID 
 var url = "mongodb://localhost:27017/";
@@ -44,19 +44,6 @@ app.get("/consultarGeral", (req, res) => {
 
 
         dbo.collection("apartament").find({ price: { $lt: body.price } }, { bairro: body.bairro }
-            ,
-            {
-                location: {
-                    $near: {
-                        $geometry: {
-                            type: "Point",
-                            coordinates: [-73.9667, 40.78]
-                        },
-                        $minDistance: 0,
-                        $maxDistance: 1
-                    }
-                }
-            }
 
         ).limit(50)
             .toArray(async (err, result) => {
