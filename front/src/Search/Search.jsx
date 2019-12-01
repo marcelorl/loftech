@@ -6,12 +6,16 @@ import './Search.css'
 import fakeMap from './fake-map.png'
 import Wizard from "../Wizard/Wizard";
 
+import result from '../Apartment/result.json'
+
 function Search() {
     const [showWizard, setShowWizard] = useState(true)
+    const [res, setRes] = useState(null)
 
     const onSearch = (data) => {
         setShowWizard(false)
-        console.log(data)
+        setRes(result)
+        console.log(result)
     };
 
   return (
@@ -202,7 +206,7 @@ function Search() {
                                       </div>
                                       <div className="jss436">
                                           <ul className="MuiGridList-root jss435" style={{"margin":"-12px"}} data-testid="home-list">
-                                              <Content />
+                                              <Content res={res} />
                                           </ul>
                                       </div>
                                   </div>

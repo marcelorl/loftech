@@ -72,7 +72,7 @@ export default ({onSearch}) => {
                         </div>
                     </div>
 
-                    <div className="center">
+                    <div className="center margin-bottom">
                         <button
                             style={{"width": "130px"}}
                             onClick={(e) => {
