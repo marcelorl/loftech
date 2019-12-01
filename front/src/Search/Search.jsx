@@ -5,8 +5,7 @@ import Content from './Content'
 import './Search.css'
 import fakeMap from './fake-map.png'
 import Wizard from "../Wizard/Wizard";
-
-import result from '../Apartment/result.json'
+import axios from 'axios'
 
 function Search() {
     const [showWizard, setShowWizard] = useState(true)
@@ -14,8 +13,10 @@ function Search() {
 
     const onSearch = (data) => {
         setShowWizard(false)
-        setRes(result)
-        console.log(result)
+        axios.get("http://localhost:4000/consultarGeral").then(result => {
+            setRes(result.data)
+            console.log(result.data)
+        })
     };
 
   return (

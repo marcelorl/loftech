@@ -33,7 +33,7 @@ export default ({onSearch}) => {
                     <div className="center margin-bottom">
                         <strong>Qual bairro você deseja encontrar seu apê?</strong>
                         <div>
-                            <input type="text" name="neighborhood" onChange={onSetData} />
+                            <input type="text" name="bairro" onChange={onSetData} />
                         </div>
                     </div>
 
